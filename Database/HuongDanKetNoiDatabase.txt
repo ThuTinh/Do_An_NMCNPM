@@ -1,0 +1,39 @@
+﻿Để chạy được source code mẫu:
+1. Install SQL Server >= 2010
+	- Start service SQL Server!!!
+2. Instal VS >= 2010
+
+-------------
+Cách run chi tiết:
+1. Vào thư mục:
+	...\QLHS - OK2
+2.1. Mở file
+	CreateDBQLTV.cmd bằng Notepad++
+	Thay thế chuỗi
+	DESKTOP-AAJHVMV ---> thành {server name}\{Instance Name của SQL Server} trên máy đang chạy
+	và lưu lại( cái server name này chính là cái lúc khởi đông sql server hiện lên bản kết nối connect thì copy tên máy chủ server cái này chính  là server name)
+	
+2.2  Double click và file:
+	CreateDBQLTV.cmd
+	
+3. Open SQL Server Management Studio & kiểm tra	database 
+	[QTTV] được tạo
+	- gồm các table
+		
+4. Open Solution {QLThuVien.sln} bằng Visual Studio
+5. Vào project: 
+	
+6. Double click để open file:
+		App.config
+7. Cập nhật chuỗi kết nối:
+<add key="ConnectionString" value="Data Source=DESKTOP-AAJHVMV;Initial Catalog=QLTV;Integrated Security=True"/>
+bằng cách đổi:
+	L8PC149\SQLEXPRESS ---> thành {server name}\{Instance Name của SQL Server} trên máy đang chạy
+8. Lưu file:
+	App.config
+9. Build solution tiếp tục
+
+
+	
+	
+		
