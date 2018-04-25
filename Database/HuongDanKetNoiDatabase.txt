@@ -5,8 +5,8 @@
 
 -------------
 Cách run chi tiết:
-1. Vào thư mục:
-	...\QLHS - OK2
+1. Tải file CreateDBQLTV.cmd , QLTV.sql, QLThuVien.sln
+	
 2.1. Mở file
 	CreateDBQLTV.cmd bằng Notepad++
 	Thay thế chuỗi
