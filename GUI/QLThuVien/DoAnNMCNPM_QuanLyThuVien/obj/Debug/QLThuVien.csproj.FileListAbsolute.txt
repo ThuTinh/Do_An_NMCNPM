@@ -1,0 +1,71 @@
+c:\users\thu tinh\documents\visual studio 2017\Projects\DoAnNMCNPM_QuanLyThuVien\DoAnNMCNPM_QuanLyThuVien\bin\Debug\DoAnNMCNPM_QuanLyThuVien.exe.config
+c:\users\thu tinh\documents\visual studio 2017\Projects\DoAnNMCNPM_QuanLyThuVien\DoAnNMCNPM_QuanLyThuVien\bin\Debug\DoAnNMCNPM_QuanLyThuVien.exe
+c:\users\thu tinh\documents\visual studio 2017\Projects\DoAnNMCNPM_QuanLyThuVien\DoAnNMCNPM_QuanLyThuVien\bin\Debug\DoAnNMCNPM_QuanLyThuVien.pdb
+c:\users\thu tinh\documents\visual studio 2017\Projects\DoAnNMCNPM_QuanLyThuVien\DoAnNMCNPM_QuanLyThuVien\obj\Debug\QLThuVien.csprojResolveAssemblyReference.cache
+c:\users\thu tinh\documents\visual studio 2017\Projects\DoAnNMCNPM_QuanLyThuVien\DoAnNMCNPM_QuanLyThuVien\obj\Debug\DoAnNMCNPM_QuanLyThuVien.Properties.Resources.resources
+c:\users\thu tinh\documents\visual studio 2017\Projects\DoAnNMCNPM_QuanLyThuVien\DoAnNMCNPM_QuanLyThuVien\obj\Debug\QLThuVien.csproj.GenerateResource.Cache
+c:\users\thu tinh\documents\visual studio 2017\Projects\DoAnNMCNPM_QuanLyThuVien\DoAnNMCNPM_QuanLyThuVien\obj\Debug\DoAnNMCNPM_QuanLyThuVien.exe
+c:\users\thu tinh\documents\visual studio 2017\Projects\DoAnNMCNPM_QuanLyThuVien\DoAnNMCNPM_QuanLyThuVien\obj\Debug\DoAnNMCNPM_QuanLyThuVien.pdb
+C:\Users\Thu Tinh\documents\visual studio 2017\Projects\DoAnNMCNPM_QuanLyThuVien\DoAnNMCNPM_QuanLyThuVien\bin\Debug\DevExpress.XtraEditors.v12.2.dll
+C:\Users\Thu Tinh\documents\visual studio 2017\Projects\DoAnNMCNPM_QuanLyThuVien\DoAnNMCNPM_QuanLyThuVien\obj\Debug\DoAnNMCNPM_QuanLyThuVien.GUI.frm_Sach.resources
+C:\Users\Thu Tinh\documents\visual studio 2017\Projects\DoAnNMCNPM_QuanLyThuVien\DoAnNMCNPM_QuanLyThuVien\bin\Debug\Telerik.WinControls.dll
+C:\Users\Thu Tinh\documents\visual studio 2017\Projects\DoAnNMCNPM_QuanLyThuVien\DoAnNMCNPM_QuanLyThuVien\bin\Debug\Telerik.WinControls.UI.dll
+C:\Users\Thu Tinh\documents\visual studio 2017\Projects\DoAnNMCNPM_QuanLyThuVien\DoAnNMCNPM_QuanLyThuVien\bin\Debug\TelerikCommon.dll
+C:\Users\Thu Tinh\documents\visual studio 2017\Projects\DoAnNMCNPM_QuanLyThuVien\DoAnNMCNPM_QuanLyThuVien\bin\Debug\Telerik.WinControls.xml
+C:\Users\Thu Tinh\documents\visual studio 2017\Projects\DoAnNMCNPM_QuanLyThuVien\DoAnNMCNPM_QuanLyThuVien\bin\Debug\Telerik.WinControls.UI.xml
+C:\Users\Thu Tinh\documents\visual studio 2017\Projects\DoAnNMCNPM_QuanLyThuVien\DoAnNMCNPM_QuanLyThuVien\obj\Debug\DoAnNMCNPM_QuanLyThuVien.exe.licenses
+C:\Users\Thu Tinh\documents\visual studio 2017\Projects\DoAnNMCNPM_QuanLyThuVien\DoAnNMCNPM_QuanLyThuVien\bin\Debug\Telerik.WinControls.RadDock.dll
+C:\Users\Thu Tinh\documents\visual studio 2017\Projects\DoAnNMCNPM_QuanLyThuVien\DoAnNMCNPM_QuanLyThuVien\bin\Debug\Telerik.WinControls.RadDock.xml
+C:\Users\Thu Tinh\documents\visual studio 2017\Projects\DoAnNMCNPM_QuanLyThuVien\DoAnNMCNPM_QuanLyThuVien\obj\Debug\DoAnNMCNPM_QuanLyThuVien.GUI.frm_DocGia.resources
+C:\Users\Thu Tinh\documents\visual studio 2017\Projects\DoAnNMCNPM_QuanLyThuVien\DoAnNMCNPM_QuanLyThuVien\obj\Debug\DoAnNMCNPM_QuanLyThuVien.GUI.frm_ThuThu.resources
+C:\Users\Thu Tinh\documents\visual studio 2017\Projects\DoAnNMCNPM_QuanLyThuVien\DoAnNMCNPM_QuanLyThuVien\bin\Debug\Telerik.WinControls.GridView.dll
+C:\Users\Thu Tinh\documents\visual studio 2017\Projects\DoAnNMCNPM_QuanLyThuVien\DoAnNMCNPM_QuanLyThuVien\bin\Debug\Telerik.WinControls.GridView.xml
+C:\Users\Thu Tinh\documents\visual studio 2017\Projects\DoAnNMCNPM_QuanLyThuVien\DoAnNMCNPM_QuanLyThuVien\obj\Debug\DoAnNMCNPM_QuanLyThuVien.GUI.frm_PhieuDocGia.resources
+C:\Users\Thu Tinh\documents\visual studio 2017\Projects\DoAnNMCNPM_QuanLyThuVien\DoAnNMCNPM_QuanLyThuVien\obj\Debug\DoAnNMCNPM_QuanLyThuVien.GUI.frm_MuonSach.resources
+C:\Users\Thu Tinh\documents\visual studio 2017\Projects\DoAnNMCNPM_QuanLyThuVien\DoAnNMCNPM_QuanLyThuVien\obj\Debug\DoAnNMCNPM_QuanLyThuVien.GUI.frm_TraSach.resources
+C:\Users\Thu Tinh\documents\visual studio 2017\Projects\DoAnNMCNPM_QuanLyThuVien\DoAnNMCNPM_QuanLyThuVien\obj\Debug\DoAnNMCNPM_QuanLyThuVien.GUI.frm_Anh.resources
+C:\Users\Thu Tinh\documents\visual studio 2017\Projects\DoAnNMCNPM_QuanLyThuVien\DoAnNMCNPM_QuanLyThuVien\obj\Debug\DoAnNMCNPM_QuanLyThuVien.Frm_Main.resources
+C:\Users\Thu Tinh\documents\visual studio 2017\Projects\DoAnNMCNPM_QuanLyThuVien\DoAnNMCNPM_QuanLyThuVien\obj\Debug\DoAnNMCNPM_QuanLyThuVien.GUI.frm_BaoCaoTraTreSach.resources
+C:\Users\Thu Tinh\documents\visual studio 2017\Projects\DoAnNMCNPM_QuanLyThuVien\DoAnNMCNPM_QuanLyThuVien\obj\Debug\DoAnNMCNPM_QuanLyThuVien.GUI.frm_TinhHinhMuonSach.resources
+C:\Users\Thu Tinh\documents\visual studio 2017\Projects\DoAnNMCNPM_QuanLyThuVien\DoAnNMCNPM_QuanLyThuVien\obj\Debug\DoAnNMCNPM_QuanLyThuVien.frm_DangNhap.resources
+C:\Users\Thu Tinh\documents\visual studio 2017\Projects\DoAnNMCNPM_QuanLyThuVien\DoAnNMCNPM_QuanLyThuVien\obj\Debug\DoAnNMCNPM_QuanLyThuVien.GUI.frm_QLSach.resources
+C:\Users\Thu Tinh\Documents\Visual Studio 2017\Projects\DoAnNMCNPM_QuanLyThuVien\DoAnNMCNPM_QuanLyThuVien\obj\Debug\DoAnNMCNPM_QuanLyThuVien.Frm_CapNhapQD1.resources
+C:\Users\Thu Tinh\Documents\Visual Studio 2017\Projects\DoAnNMCNPM_QuanLyThuVien\DoAnNMCNPM_QuanLyThuVien\obj\Debug\DoAnNMCNPM_QuanLyThuVien.frm_CapNhapQD2.resources
+C:\Users\Thu Tinh\Documents\Visual Studio 2017\Projects\DoAnNMCNPM_QuanLyThuVien\DoAnNMCNPM_QuanLyThuVien\obj\Debug\DoAnNMCNPM_QuanLyThuVien.Frm_CapNhapQD3.resources
+D:\Do_An_NMCNPM-master\Do_An_NMCNPM-master\GUI\DoAnNMCNPM_QuanLyThuVien\DoAnNMCNPM_QuanLyThuVien\DoAnNMCNPM_QuanLyThuVien\bin\Debug\DoAnNMCNPM_QuanLyThuVien.exe.config
+D:\Do_An_NMCNPM-master\Do_An_NMCNPM-master\GUI\DoAnNMCNPM_QuanLyThuVien\DoAnNMCNPM_QuanLyThuVien\DoAnNMCNPM_QuanLyThuVien\bin\Debug\DoAnNMCNPM_QuanLyThuVien.exe
+D:\Do_An_NMCNPM-master\Do_An_NMCNPM-master\GUI\DoAnNMCNPM_QuanLyThuVien\DoAnNMCNPM_QuanLyThuVien\DoAnNMCNPM_QuanLyThuVien\bin\Debug\DoAnNMCNPM_QuanLyThuVien.pdb
+D:\Do_An_NMCNPM-master\Do_An_NMCNPM-master\GUI\DoAnNMCNPM_QuanLyThuVien\DoAnNMCNPM_QuanLyThuVien\DoAnNMCNPM_QuanLyThuVien\bin\Debug\DevExpress.XtraEditors.v12.2.dll
+D:\Do_An_NMCNPM-master\Do_An_NMCNPM-master\GUI\DoAnNMCNPM_QuanLyThuVien\DoAnNMCNPM_QuanLyThuVien\DoAnNMCNPM_QuanLyThuVien\bin\Debug\Telerik.WinControls.dll
+D:\Do_An_NMCNPM-master\Do_An_NMCNPM-master\GUI\DoAnNMCNPM_QuanLyThuVien\DoAnNMCNPM_QuanLyThuVien\DoAnNMCNPM_QuanLyThuVien\bin\Debug\Telerik.WinControls.GridView.dll
+D:\Do_An_NMCNPM-master\Do_An_NMCNPM-master\GUI\DoAnNMCNPM_QuanLyThuVien\DoAnNMCNPM_QuanLyThuVien\DoAnNMCNPM_QuanLyThuVien\bin\Debug\Telerik.WinControls.RadDock.dll
+D:\Do_An_NMCNPM-master\Do_An_NMCNPM-master\GUI\DoAnNMCNPM_QuanLyThuVien\DoAnNMCNPM_QuanLyThuVien\DoAnNMCNPM_QuanLyThuVien\bin\Debug\Telerik.WinControls.UI.dll
+D:\Do_An_NMCNPM-master\Do_An_NMCNPM-master\GUI\DoAnNMCNPM_QuanLyThuVien\DoAnNMCNPM_QuanLyThuVien\DoAnNMCNPM_QuanLyThuVien\bin\Debug\TelerikCommon.dll
+D:\Do_An_NMCNPM-master\Do_An_NMCNPM-master\GUI\DoAnNMCNPM_QuanLyThuVien\DoAnNMCNPM_QuanLyThuVien\DoAnNMCNPM_QuanLyThuVien\bin\Debug\Telerik.WinControls.xml
+D:\Do_An_NMCNPM-master\Do_An_NMCNPM-master\GUI\DoAnNMCNPM_QuanLyThuVien\DoAnNMCNPM_QuanLyThuVien\DoAnNMCNPM_QuanLyThuVien\bin\Debug\Telerik.WinControls.GridView.xml
+D:\Do_An_NMCNPM-master\Do_An_NMCNPM-master\GUI\DoAnNMCNPM_QuanLyThuVien\DoAnNMCNPM_QuanLyThuVien\DoAnNMCNPM_QuanLyThuVien\bin\Debug\Telerik.WinControls.RadDock.xml
+D:\Do_An_NMCNPM-master\Do_An_NMCNPM-master\GUI\DoAnNMCNPM_QuanLyThuVien\DoAnNMCNPM_QuanLyThuVien\DoAnNMCNPM_QuanLyThuVien\bin\Debug\Telerik.WinControls.UI.xml
+D:\Do_An_NMCNPM-master\Do_An_NMCNPM-master\GUI\DoAnNMCNPM_QuanLyThuVien\DoAnNMCNPM_QuanLyThuVien\DoAnNMCNPM_QuanLyThuVien\obj\Debug\QLThuVien.csprojResolveAssemblyReference.cache
+D:\Do_An_NMCNPM-master\Do_An_NMCNPM-master\GUI\DoAnNMCNPM_QuanLyThuVien\DoAnNMCNPM_QuanLyThuVien\DoAnNMCNPM_QuanLyThuVien\obj\Debug\DoAnNMCNPM_QuanLyThuVien.Frm_CapNhapQD1.resources
+D:\Do_An_NMCNPM-master\Do_An_NMCNPM-master\GUI\DoAnNMCNPM_QuanLyThuVien\DoAnNMCNPM_QuanLyThuVien\DoAnNMCNPM_QuanLyThuVien\obj\Debug\DoAnNMCNPM_QuanLyThuVien.frm_CapNhapQD2.resources
+D:\Do_An_NMCNPM-master\Do_An_NMCNPM-master\GUI\DoAnNMCNPM_QuanLyThuVien\DoAnNMCNPM_QuanLyThuVien\DoAnNMCNPM_QuanLyThuVien\obj\Debug\DoAnNMCNPM_QuanLyThuVien.Frm_CapNhapQD3.resources
+D:\Do_An_NMCNPM-master\Do_An_NMCNPM-master\GUI\DoAnNMCNPM_QuanLyThuVien\DoAnNMCNPM_QuanLyThuVien\DoAnNMCNPM_QuanLyThuVien\obj\Debug\DoAnNMCNPM_QuanLyThuVien.frm_DangNhap.resources
+D:\Do_An_NMCNPM-master\Do_An_NMCNPM-master\GUI\DoAnNMCNPM_QuanLyThuVien\DoAnNMCNPM_QuanLyThuVien\DoAnNMCNPM_QuanLyThuVien\obj\Debug\DoAnNMCNPM_QuanLyThuVien.Frm_Main.resources
+D:\Do_An_NMCNPM-master\Do_An_NMCNPM-master\GUI\DoAnNMCNPM_QuanLyThuVien\DoAnNMCNPM_QuanLyThuVien\DoAnNMCNPM_QuanLyThuVien\obj\Debug\DoAnNMCNPM_QuanLyThuVien.GUI.frm_Anh.resources
+D:\Do_An_NMCNPM-master\Do_An_NMCNPM-master\GUI\DoAnNMCNPM_QuanLyThuVien\DoAnNMCNPM_QuanLyThuVien\DoAnNMCNPM_QuanLyThuVien\obj\Debug\DoAnNMCNPM_QuanLyThuVien.GUI.frm_BaoCaoTraTreSach.resources
+D:\Do_An_NMCNPM-master\Do_An_NMCNPM-master\GUI\DoAnNMCNPM_QuanLyThuVien\DoAnNMCNPM_QuanLyThuVien\DoAnNMCNPM_QuanLyThuVien\obj\Debug\DoAnNMCNPM_QuanLyThuVien.GUI.frm_DocGia.resources
+D:\Do_An_NMCNPM-master\Do_An_NMCNPM-master\GUI\DoAnNMCNPM_QuanLyThuVien\DoAnNMCNPM_QuanLyThuVien\DoAnNMCNPM_QuanLyThuVien\obj\Debug\DoAnNMCNPM_QuanLyThuVien.GUI.frm_MuonSach.resources
+D:\Do_An_NMCNPM-master\Do_An_NMCNPM-master\GUI\DoAnNMCNPM_QuanLyThuVien\DoAnNMCNPM_QuanLyThuVien\DoAnNMCNPM_QuanLyThuVien\obj\Debug\DoAnNMCNPM_QuanLyThuVien.GUI.frm_PhieuDocGia.resources
+D:\Do_An_NMCNPM-master\Do_An_NMCNPM-master\GUI\DoAnNMCNPM_QuanLyThuVien\DoAnNMCNPM_QuanLyThuVien\DoAnNMCNPM_QuanLyThuVien\obj\Debug\DoAnNMCNPM_QuanLyThuVien.GUI.frm_ThuThu.resources
+D:\Do_An_NMCNPM-master\Do_An_NMCNPM-master\GUI\DoAnNMCNPM_QuanLyThuVien\DoAnNMCNPM_QuanLyThuVien\DoAnNMCNPM_QuanLyThuVien\obj\Debug\DoAnNMCNPM_QuanLyThuVien.GUI.frm_TinhHinhMuonSach.resources
+D:\Do_An_NMCNPM-master\Do_An_NMCNPM-master\GUI\DoAnNMCNPM_QuanLyThuVien\DoAnNMCNPM_QuanLyThuVien\DoAnNMCNPM_QuanLyThuVien\obj\Debug\DoAnNMCNPM_QuanLyThuVien.GUI.frm_TraSach.resources
+D:\Do_An_NMCNPM-master\Do_An_NMCNPM-master\GUI\DoAnNMCNPM_QuanLyThuVien\DoAnNMCNPM_QuanLyThuVien\DoAnNMCNPM_QuanLyThuVien\obj\Debug\DoAnNMCNPM_QuanLyThuVien.Properties.Resources.resources
+D:\Do_An_NMCNPM-master\Do_An_NMCNPM-master\GUI\DoAnNMCNPM_QuanLyThuVien\DoAnNMCNPM_QuanLyThuVien\DoAnNMCNPM_QuanLyThuVien\obj\Debug\QLThuVien.csproj.GenerateResource.Cache
+D:\Do_An_NMCNPM-master\Do_An_NMCNPM-master\GUI\DoAnNMCNPM_QuanLyThuVien\DoAnNMCNPM_QuanLyThuVien\DoAnNMCNPM_QuanLyThuVien\obj\Debug\DoAnNMCNPM_QuanLyThuVien.exe.licenses
+D:\Do_An_NMCNPM-master\Do_An_NMCNPM-master\GUI\DoAnNMCNPM_QuanLyThuVien\DoAnNMCNPM_QuanLyThuVien\DoAnNMCNPM_QuanLyThuVien\obj\Debug\DoAnNMCNPM_QuanLyThuVien.exe
+D:\Do_An_NMCNPM-master\Do_An_NMCNPM-master\GUI\DoAnNMCNPM_QuanLyThuVien\DoAnNMCNPM_QuanLyThuVien\DoAnNMCNPM_QuanLyThuVien\obj\Debug\DoAnNMCNPM_QuanLyThuVien.pdb
+D:\Do_An_NMCNPM-master\Do_An_NMCNPM-master\GUI\DoAnNMCNPM_QuanLyThuVien\DoAnNMCNPM_QuanLyThuVien\DoAnNMCNPM_QuanLyThuVien\obj\Debug\DoAnNMCNPM_QuanLyThuVien.GUI.frm_ThanhToan.resources
+D:\Do_An_NMCNPM-master\Do_An_NMCNPM-master\GUI\DoAnNMCNPM_QuanLyThuVien\DoAnNMCNPM_QuanLyThuVien\DoAnNMCNPM_QuanLyThuVien\obj\Debug\DoAnNMCNPM_QuanLyThuVien.GUI.frm_TheLoai.resources
+D:\Do_An_NMCNPM-master\Do_An_NMCNPM-master\GUI\DoAnNMCNPM_QuanLyThuVien\DoAnNMCNPM_QuanLyThuVien\DoAnNMCNPM_QuanLyThuVien\obj\Debug\DoAnNMCNPM_QuanLyThuVien.GUI.frm_CuonSach.resources
+D:\Do_An_NMCNPM-master\Do_An_NMCNPM-master\GUI\DoAnNMCNPM_QuanLyThuVien\DoAnNMCNPM_QuanLyThuVien\DoAnNMCNPM_QuanLyThuVien\obj\Debug\DoAnNMCNPM_QuanLyThuVien.GUI.frm_DauSach.resources
+D:\Do_An_NMCNPM-master\Do_An_NMCNPM-master\GUI\DoAnNMCNPM_QuanLyThuVien\DoAnNMCNPM_QuanLyThuVien\DoAnNMCNPM_QuanLyThuVien\obj\Debug\DoAnNMCNPM_QuanLyThuVien.GUI.frm_QLTienPhieuPhat.resources
