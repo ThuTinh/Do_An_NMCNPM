@@ -440,13 +440,7 @@ FROM            CHITIETMUON INNER JOIN
                          PHIEUMUON ON CHITIETMUON.MaPhieuMuon = PHIEUMUON.MaPhieuMuon
 
 
-MAR
-3
-Lọc dấu tiếng Việt trong SQL
-Hàm chuyển một chuỗi ký tự có dấu (Unicode), chuyển thành chuỗi không dấu 
-
-
-
+ go 
 
 --CREATE BY webmaster@hmweb.com.vn
 CREATE FUNCTION [dbo].[fuChuyenCoDauThanhKhongDau]

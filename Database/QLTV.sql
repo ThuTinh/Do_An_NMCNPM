@@ -91,9 +91,9 @@ create table THUTHU
 )
 
 GO
-insert into THUTHU values ('TT01', N'Lê Thị Hồng Hoa', N'Nữ', N'02/19/1984', '20/3 Lê Văn Việt, Q9, TpHCM', 'lethihonghoa@gmail.com', 'TT') 
-insert into THUTHU values ('TT02', N'Trần Thị Thùy', N'Nũ', N'12/09/1992', '15 Tăng Nhơn Phú, Q9, Tp HCM', 'TranThiThuy@gmail.com', 'TT')
-insert into THUTHU values ('TT03', N'Nguyễn Văn Nam', 'Nam', N'03/13/1989', '30/2 Đặng Văn Bi, Q Thủ Đức, Tp HCM', 'vannam0312@gmail.com','TT') 
+insert into THUTHU values ('TT01', N'Lê Thị Hồng Hoa', N'Nữ', N'02/19/1984', N'20/3 Lê Văn Việt, Q9, TpHCM', 'lethihonghoa@gmail.com', N'Thủ thư') 
+insert into THUTHU values ('TT02', N'Trần Thị Thùy', N'Nữ', N'12/09/1992', N'15 Tăng Nhơn Phú, Q9, Tp HCM', 'TranThiThuy@gmail.com', N'Thủ Thư')
+insert into THUTHU values ('TT03', N'Nguyễn Văn Nam', N'Nam', N'03/13/1989', N'30/2 Đặng Văn Bi, Q Thủ Đức, Tp HCM', 'vannam0312@gmail.com',N'Thủ thư') 
 
 go
 
@@ -126,7 +126,7 @@ GO
 insert into DAUSACH values ('MDS001', N'Thiết kế cơ sở dữ liệu',N'Trịnh Minh Tuấn', N'Giáo trình', 2017, N'Nxb.Đại học quốc gia TPHCM', 57000, 0)
 insert into DAUSACH values ('MDS002', N'Xử lý ngôn ngữ tự nhiên',N'Nguyễn Tuấn Đăng', N'Giáo trình', 2012, N'Nxb.Đại học quốc gia TPHCM', 45000, 0)
 insert into DAUSACH values ('MDS003', N'Pháp chứng kỹ thuật số',N'Đàm Quang Hồng Hải', N'Giáo trình', 2016, N'Nxb.Đại học quốc gia TPHCM', 64000, 0)
-insert into DAUSACH values ('MDS004', N'Hệ thống nhúng',N'Vũ Đức Lung, Trần Ngọc Đức', N'Giáo trình', 2016, N'Nxb.Đại học quốc gia TPHCM', 55000, 0)
+insert into DAUSACH values ('MDS004', N'Hệ thống nhúng',N'Vũ Lung, Trần Ngọc Đức', N'Giáo trình', 2016, N'Nxb.Đại học quốc gia TPHCM', 55000, 0)
 insert into DAUSACH values ('MDS005', N'Thiết kế vi mạch số',N'Nguyễn Minh Sơn, Nguyễn Trần Sơn', N'Giáo trình', 2016, N'Nxb.Đại học quốc gia TPHCM', 39000, 0)
 insert into DAUSACH values ('MDS006', N'Tại sao Mác đúng',N'Terry Eagleton', N'Tham khảo', 2014, N'Nxb.Chính trị - Hành chính', 57000, 0)
 insert into DAUSACH values ('MDS007', N'Hồ Chí Minh : Nhà tư tưởng lỗi lạc',N'Song Thanh', N'Tham khảo', 2013, N'Nxb.Đại học quốc gia TPHCM', 57000, 0)
@@ -355,20 +355,6 @@ update CUONSACH set TinhTrang = 'Y' where MaSach = @MaSach
 
 
 go
--- Tao trigger cap nhap so ngay tra muon
---create trigger INSERT_CHITIETTRA_SoNgayTraMuon
---on CHITIETTRA
---for INSERT
---as	
---	declare @MaSach char(6), @SoNgayTraMuon int,@MaPhieuTra char(6),@NgayTra smalldatetime, @MaPhieuMuon char(6),@NgayMuon smalldatetime -- khai bao bien
---	select @MaPhieuTra=MaPhieuTra,@MaSach =MaSach,@MaPhieuMuon=MaPhieuMuon from inserted-- lay gia tri ra can dung select--B1
---	select @NgayTra=NgayTra from PHIEUTRA WHERE MaPhieuTra=@MaPhieuTra
-	--select @NgayMuon=NgayMuon from PHIEUMUON WHERE MaPhieuMuon=@MaPhieuMuon
---	UPDATE CHITIETTRA
---	SET SoNgayTraMuon= DATEDIFF (day, @NgayMuon, @NgayTra)
---	WHERE MaPhieuTra=@MaPhieuTra and MaSach =@MaSach
-
---go
 
 
 insert into CHITIETTRA values ('PT0001',  'PM0001','MS0001', 0 , null)
@@ -385,19 +371,7 @@ insert into CHITIETTRA values ('PT0011', 'PM0011','MS0011', 0, null)
 
 
 go
-create trigger INSERT_CHITIETTRA_SoNgayTraMuon
-on CHITIETTRA
-for INSERT
-as	
-	declare @MaSach char(6), @SoNgayTraMuon int,@MaPhieuTra char(6),@NgayTra smalldatetime, @MaPhieuMuon char(6),@NgayMuon smalldatetime -- khai bao bien
-	select @MaPhieuTra=MaPhieuTra,@MaSach =MaSach,@MaPhieuMuon=MaPhieuMuon from inserted-- lay gia tri ra can dung select--B1
-	select @NgayTra=NgayTra from PHIEUTRA WHERE MaPhieuTra=@MaPhieuTra
-	select @NgayMuon=NgayMuon from PHIEUMUON WHERE MaPhieuMuon=@MaPhieuMuon
-	UPDATE CHITIETTRA
-	SET SoNgayTraMuon= DATEDIFF (day, @NgayMuon, @NgayTra)
-	WHERE MaPhieuTra=@MaPhieuTra and MaSach =@MaSach
 
-go
 
 create table QUYDINH1
 (
@@ -436,25 +410,12 @@ create table PHIEUTIENPHAT
 (
 	
 	MaPhieuTra char(6) primary key,
-	TongNo int ,
+	TongNo money ,
 	constraint fk_PHIEUTIENPHAT_PHIEUTRA foreign key (MaPhieuTra) references PHIEUTRA (MaPhieuTra)
 )
 
 go
 
-create trigger INSERT_PHIEUTIENPHAT_TongNo1
-on PHIEUTIENPHAT
-for INSERT
-as	
-	declare @GiaTien int,@SoNgayTraMuon int,@MaPhieuTra char(6)
-	select  @MaPhieuTra=MaPhieuTra from inserted-- lay gia tri ra can dung select--B1
-	select @GiaTien=GiaTien from TIEN
-	select @SoNgayTraMuon=SoNgayTraMuon from CHITIETTRA WHERE MaPhieuTra=@MaPhieuTra
-	UPDATE PhieuTienPhat
-	SET TongNo= @GiaTien*@SoNgayTraMuon
-	WHERE MaPhieuTra = @MaPhieuTra
-
-	go
 
 	-- tao view TKSachTraTre
 CREATE VIEW TKSachTraTre AS 
@@ -477,3 +438,65 @@ FROM            CHITIETMUON INNER JOIN
                          CUONSACH ON CHITIETMUON.MaSach = CUONSACH.MaSach INNER JOIN
                          DAUSACH ON CUONSACH.MaDauSach = DAUSACH.MaDauSach INNER JOIN
                          PHIEUMUON ON CHITIETMUON.MaPhieuMuon = PHIEUMUON.MaPhieuMuon
+
+
+ go 
+
+--CREATE BY webmaster@hmweb.com.vn
+CREATE FUNCTION [dbo].[fuChuyenCoDauThanhKhongDau]
+(
+      @strInput NVARCHAR(4000)
+)
+RETURNS NVARCHAR(4000)
+AS
+BEGIN    
+    IF @strInput IS NULL RETURN @strInput
+    IF @strInput = '' RETURN @strInput
+    DECLARE @RT NVARCHAR(4000)
+    DECLARE @SIGN_CHARS NCHAR(136)
+    DECLARE @UNSIGN_CHARS NCHAR (136)
+
+    SET @SIGN_CHARS = N'ăâđêôơưàảãạáằẳẵặắầẩẫậấèẻẽẹéềểễệế
+                  ìỉĩịíòỏõọóồổỗộốờởỡợớùủũụúừửữựứỳỷỹỵý
+                  ĂÂĐÊÔƠƯÀẢÃẠÁẰẲẴẶẮẦẨẪẬẤÈẺẼẸÉỀỂỄỆẾÌỈĨỊÍ
+                  ÒỎÕỌÓỒỔỖỘỐỜỞỠỢỚÙỦŨỤÚỪỬỮỰỨỲỶỸỴÝ'
+                  +NCHAR(272)+ NCHAR(208)
+    SET @UNSIGN_CHARS = N'aadeoouaaaaaaaaaaaaaaaeeeeeeeeee
+                  iiiiiooooooooooooooouuuuuuuuuuyyyyy
+                  AADEOOUAAAAAAAAAAAAAAAEEEEEEEEEEIIIII
+                  OOOOOOOOOOOOOOOUUUUUUUUUUYYYYYDD'
+
+    DECLARE @COUNTER int
+    DECLARE @COUNTER1 int
+    SET @COUNTER = 1
+
+    WHILE (@COUNTER <=LEN(@strInput))
+    BEGIN  
+      SET @COUNTER1 = 1
+      --Tìm trong chuỗi mẫu
+       WHILE (@COUNTER1 <=LEN(@SIGN_CHARS)+1)
+       BEGIN
+     IF UNICODE(SUBSTRING(@SIGN_CHARS, @COUNTER1,1))
+            = UNICODE(SUBSTRING(@strInput,@COUNTER ,1) )
+     BEGIN          
+          IF @COUNTER=1
+              SET @strInput = SUBSTRING(@UNSIGN_CHARS, @COUNTER1,1)
+              + SUBSTRING(@strInput, @COUNTER+1,LEN(@strInput)-1)                  
+          ELSE
+              SET @strInput = SUBSTRING(@strInput, 1, @COUNTER-1)
+              +SUBSTRING(@UNSIGN_CHARS, @COUNTER1,1)
+              + SUBSTRING(@strInput, @COUNTER+1,LEN(@strInput)- @COUNTER)
+              BREAK
+               END
+             SET @COUNTER1 = @COUNTER1 +1
+       END
+      --Tìm tiếp
+       SET @COUNTER = @COUNTER +1
+    END
+    SET @strInput = replace(@strInput,' ','-')
+    RETURN @strInput
+END
+
+SELECT  count(*)
+                                FROM   THEDOCGIA
+                                Where MaDocGia = 'DG0001'
