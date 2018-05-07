@@ -8,7 +8,8 @@
 - Đặng Đức Tín (***16521240@gm.uit.edu.vn***)
 
 # Kiến thức áp dụng
-- sử dụng các control cơ bản và nâng cao trong Winform.
+- Sử dụng các control cơ bản và nâng cao trong Winform.
+- Sử dụng công cụ Telerik thiết kế giao diện.
 - DataGridView, DataSet, DataTable, DataRow.
 - Phân tích thiết kế hệ thống cơ sở dữ liệu.
 - Phân tích thiết kế giao diện.
