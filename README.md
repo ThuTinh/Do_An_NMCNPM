@@ -1,4 +1,6 @@
-# <img src="http://portal.uit.edu.vn/Styles/profi/images/logo186x150.png">
+ <h><img src="http://portal.uit.edu.vn/Styles/profi/images/logo186x150.png"><img src="https://scontent.fsgn5-1.fna.fbcdn.net/v/t1.0-9/34063832_646521839020983_5815695854077476864_n.jpg?_nc_cat=0&oh=0f65c9d5f9b049a6572d493e3ac51137&oe=5BBD1AE0"></h>
+
+  
 # QUẢN LÝ THƯ VIỆN
 <p>Ngành công nghệ thông tin (CNTT) trong những năm gần đây đã có những bước phát triển vượt bậc trên thế giới cũng như trong nước. CNTT đã góp phần rất lớn cho sự phát triển kinh tế của nước ta trong thời kỳ đổi mới. Chính vì thế nhu cầu tin học hóa các chương trình quản lý thư viện cũng đang rất cần thiết để có thể đổi mới với quy định quản lý, đạt hiệu quả cao. Ứng dụng tin học trong công tác quản lý đã phát triển mạnh mẽ giúp cho công tác quản lý ngày càng trở nên hiệu quả hơn như nâng cao hiệu suất trong công việc, đưa ra các báo cáo, các số liệu thống kê một cách nhanh chóng chính xác và kịp thời. Đồng thời nhờ có việc ứng dụng tin học đã tiết kiệm được rất nhiều thời gian, công sức của con người, nó làm giảm nhẹ bộ máy quản lý vốn rất cồng kềnh từ trước tới nay.</p>
 
