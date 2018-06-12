@@ -31,7 +31,7 @@
 - Thêm, xóa, sửa dữ liệu từ trang quản trị.
 
 # Nền tản xây dựng
-- **Sơ lượt về C#.Net và SQl server**
+- **Sơ lượt về C#.Net và SQl server:**
 <ul><h4>C#.Net</h4>
 
 <p>C#, theo một hướng nào đó, là ngôn ngữ lập trình phản ánh trực tiếp nhất đến.NET Framework mà tất cả các chương trình.NET chạy, và nó phụ thuộc mạnh mẽ vào Framework này. Mọi dữ liệu cơ sở đều là đối tượng, được cấp phát và hủy bỏ bởi trình dọn rác Garbage-Collector (GC), và nhiều kiểu trừu tượng khác chẳng hạn như class, delegate, interface, exception, v.v, phản ánh rõ ràng những đặc trưng của.NET runtime.</p>
@@ -44,7 +44,7 @@
 <ul><h4>SQL server</h4>
 <p>Hệ quản trị cơ sở dữ liệu SQL Server là một hệ thống quản lý cơ sở dữ liệu (Relational Database Management Server System (RDBMS)) sử dụng Transact-SQL để trao đổi dữ liệu giữa Client computer và SQL server computer. Một RDBMS bao gồm database, database angine và các ứng dụng dùng để quản lý dữ liệu và các bộ phận khác nhau trong RDBMS. SQL server được tối ưu để có thể chạy trên môi trường cơ sở dữ liệu rất lớn lên đến TB và cso thể phụ vụ cùng lúc chô hàng ngàn user. Transact-SQL (còn gọi là T-SQL) là một ngôn ngữ lập trình database hướng thủ tục độc quyền của Microsoft sử dụng trong SQL Server. Ngôn ngữ thủ tục được thiết kế để mở rộng khả năng của SQL trong khi có khả năng tích hợp tốt với SQL. Một số tính năng như các biến địa phương và xử lý chuỗi/dữ liệu được thêm vào.</p>
 </ul>
-- **Nền tản xây dựng**
+ <h4>Nền tản xây dựng:</h4>
 <ul>
  <p>-Visual studio 2017</p>
  <p>-SQL server 2014</p>
