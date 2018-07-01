@@ -1,5 +1,4 @@
- <h><img src="https://scontent.fsgn5-4.fna.fbcdn.net/v/t1.0-9/34105176_646886148984552_8219575009400586240_n.jpg?_nc_cat=0&oh=645a2f819ec408264bb4daac5bc3a0f7&oe=5B87F166"></h>
-
+<img src="https://scontent.fsgn5-4.fna.fbcdn.net/v/t1.0-9/34105176_646886148984552_8219575009400586240_n.jpg?                           _nc_cat=0&oh=645a2f819ec408264bb4daac5bc3a0f7&oe=5B87F166"  align="center"/>
   
 # QUẢN LÝ THƯ VIỆN
 <p>Ngành công nghệ thông tin (CNTT) trong những năm gần đây đã có những bước phát triển vượt bậc trên thế giới cũng như trong nước. CNTT đã góp phần rất lớn cho sự phát triển kinh tế của nước ta trong thời kỳ đổi mới. Chính vì thế nhu cầu tin học hóa các chương trình quản lý thư viện cũng đang rất cần thiết để có thể đổi mới với quy định quản lý, đạt hiệu quả cao. Ứng dụng tin học trong công tác quản lý đã phát triển mạnh mẽ giúp cho công tác quản lý ngày càng trở nên hiệu quả hơn như nâng cao hiệu suất trong công việc, đưa ra các báo cáo, các số liệu thống kê một cách nhanh chóng chính xác và kịp thời. Đồng thời nhờ có việc ứng dụng tin học đã tiết kiệm được rất nhiều thời gian, công sức của con người, nó làm giảm nhẹ bộ máy quản lý vốn rất cồng kềnh từ trước tới nay.</p>
@@ -57,7 +56,8 @@
 
 
 # Môi trường cài đặt
-- Windows 7 trở về sau
+- Windows 10 64/32 bit
+- .NETFramework,Version=v4.5.2 trở lên
 
 
 # Thành viên
