@@ -1,6 +1,10 @@
-<img src="https://scontent.fsgn5-4.fna.fbcdn.net/v/t1.0-9/34105176_646886148984552_8219575009400586240_n.jpg?                           _nc_cat=0&oh=645a2f819ec408264bb4daac5bc3a0f7&oe=5B87F166"  align="center"/>
+<h1><img src="https://scontent.fsgn5-7.fna.fbcdn.net/v/t1.0-9/36461902_669683176704849_9111368141702692864_n.jpg?_nc_cat=0&_nc_eui2=AeGXaQur9nxuOIsDm_cRQV9PpSHjbtP68EruC7RZnHqnUTQrWtXsKlUlpT3x7GfsGFrfP4l1F3QhMqwpgSLxA_EucALLXqWspr2Ws4475zIvrA&oh=6f3e81fa06cfab5dd86706e94fea4ea8&oe=5BE5DDA2" align="left"/>
+<img src="https://scontent.fsgn5-7.fna.fbcdn.net/v/t1.0-9/36479893_669677940038706_4726447355597946880_n.jpg?_nc_cat=0&_nc_eui2=AeEfTs7f40v9AR7K58rN_yvuunlgXtykm5a-NRzXQjvjOigPzyLJOXEannhbFjeGIGyXX9rU9gkvbmD7d03FbjUN7Qqr2i6kLys9oQUzqiPIcw&oh=164a51bfcceb3ab5a2a4e195b73141e5&oe=5BA2E467" align="right"/></h1>
+
+
   
-# QUẢN LÝ THƯ VIỆN
+<h1 align="center"> QUẢN LÝ THƯ VIỆN </h1>
+
 <p>Ngành công nghệ thông tin (CNTT) trong những năm gần đây đã có những bước phát triển vượt bậc trên thế giới cũng như trong nước. CNTT đã góp phần rất lớn cho sự phát triển kinh tế của nước ta trong thời kỳ đổi mới. Chính vì thế nhu cầu tin học hóa các chương trình quản lý thư viện cũng đang rất cần thiết để có thể đổi mới với quy định quản lý, đạt hiệu quả cao. Ứng dụng tin học trong công tác quản lý đã phát triển mạnh mẽ giúp cho công tác quản lý ngày càng trở nên hiệu quả hơn như nâng cao hiệu suất trong công việc, đưa ra các báo cáo, các số liệu thống kê một cách nhanh chóng chính xác và kịp thời. Đồng thời nhờ có việc ứng dụng tin học đã tiết kiệm được rất nhiều thời gian, công sức của con người, nó làm giảm nhẹ bộ máy quản lý vốn rất cồng kềnh từ trước tới nay.</p>
 
 # Chức năng chính
