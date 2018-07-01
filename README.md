@@ -32,7 +32,7 @@
 - Autocomplete của google map.
 
 # Nền tản xây dựng
-<h4>- Sơ lượt về C#.Net và SQl server:</h4>
+<h4>- Sơ lược về C#.Net, SQl server, Telerik cho winform:</h4>
 <ul><h4>C#.Net</h4>
 
 <p>C#, Theo một hướng nào đó, là ngôn ngữ lập trình phản ánh trực tiếp nhất đến.NET Framework mà tất cả các chương trình.NET chạy, và nó phụ thuộc mạnh mẽ vào Framework này. Mọi dữ liệu cơ sở đều là đối tượng, được cấp phát và hủy bỏ bởi trình dọn rác Garbage-Collector (GC), và nhiều kiểu trừu tượng khác chẳng hạn như class, delegate, interface, exception, v.v, phản ánh rõ ràng những đặc trưng của.NET runtime.</p>
@@ -45,10 +45,14 @@
 <ul><h4>SQL server</h4>
 <p>Hệ quản trị cơ sở dữ liệu SQL Server là một hệ thống quản lý cơ sở dữ liệu (Relational Database Management Server System (RDBMS)) sử dụng Transact-SQL để trao đổi dữ liệu giữa Client computer và SQL server computer. Một RDBMS bao gồm database, database angine và các ứng dụng dùng để quản lý dữ liệu và các bộ phận khác nhau trong RDBMS. SQL server được tối ưu để có thể chạy trên môi trường cơ sở dữ liệu rất lớn lên đến TB và có thể phục vụ cùng lúc cho hàng ngàn user. Transact-SQL (còn gọi là T-SQL) là một ngôn ngữ lập trình database hướng thủ tục độc quyền của Microsoft sử dụng trong SQL Server. Ngôn ngữ thủ tục được thiết kế để mở rộng khả năng của SQL trong khi có khả năng tích hợp tốt với SQL. Một số tính năng như các biến địa phương và xử lý chuỗi/dữ liệu được thêm vào.</p>
 </ul>
+<ul><h4>Telerik cho winform</h4>
+<p>Giao diện người dùng Telerik cho các điều khiển WinForms có thể được sử dụng với Progress Developer Studio cho OpenEdge để cung cấp các giao diện người dùng .NET phong phú và hấp dẫn. Giao diện người dùng Telerik dành cho WinForms bao gồm hơn 120 điều khiển giao diện người dùng mà bạn có thể sử dụng để dễ dàng xây dựng các ứng dụng độc đáo và trực quan tuyệt đẹp.</p>
+</ul>
  <h4>- Nền tản xây dựng:</h4>
 <ul>
- <p>-Visual studio 2017</p>
- <p>-SQL server 2014</p>
+ <p>- Visual studio 2017</p>
+ <p>- .NETFramework,Version=v4.5.2</p>
+ <p>- SQL server 2014</p>
  </ul>
 
 
