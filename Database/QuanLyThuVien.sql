@@ -1,8 +1,7 @@
-﻿create  database QLTV
+﻿create  database QuanLyThuVien
 go
-use QLTV
+use QuanLyThuVien
 go
-
 
 
 create table TIEN
@@ -12,6 +11,7 @@ create table TIEN
 insert into TIEN values (1000)
 
 go
+
 
 create table DOCGIA
 (
@@ -42,14 +42,12 @@ insert into DOCGIA values ('DG0013',N'Huyfnh Thị Thùy', N'Nữ', '12/03/1997'
 insert into DOCGIA values ('DG0014', N'Phan Thị Mai', N'Nữ', '11/23/1997', N' 25 Lê Văn Việt, Q9, Tp HCM', 'PhanThiMai97@gmail.com')
 insert into DOCGIA values ('DG0015', N'Lê Thị Xuân Hoa', N'Nữ', '12/30/1996', N'30/05 Võ Văn Ngân, Q Thủ Đức, Tp HCM','Lethixuanhoa@gmai.com')
 
-
 go
-
 create table THEDOCGIA
 (
 	MaThe char(6) primary key,
 	MaDocGia char(6) ,
-	LoaiThe nvarchar(10),
+	LoaiDocGia  nvarchar(20)check(LoaiDocGia = 'A' or LoaiDocGia = 'B'),
 	NgayLamThe smalldatetime,
 	HanThe smalldatetime,
 	constraint fk_THEDOCGIA_DOCGIA foreign key(MaDocGia) references DOCGIA(MaDocGia)
@@ -58,22 +56,23 @@ create table THEDOCGIA
 GO
 
 
-insert into THEDOCGIA values ('MT0000', 'DG0001','A', '06/30/2017','06/30/2018')
-insert into THEDOCGIA values ('MT0001', 'DG0002','A', '06/30/2017','06/30/2018')
-insert into THEDOCGIA values ('MT0002', 'DG0002', 'A', ' 06/30/2017', '06/30/2018')
-insert into THEDOCGIA values ('MT0003', 'DG0003', 'B', '07/15/2017', '07/15/2018')
+
+insert into THEDOCGIA values ('MT0000', 'DG0001','B', '06/30/2017','06/30/2018')
+insert into THEDOCGIA values ('MT0001', 'DG0002','B', '06/30/2017','06/30/2018')
+insert into THEDOCGIA values ('MT0002', 'DG0002', 'B', ' 06/30/2017', '06/30/2018')
+insert into THEDOCGIA values ('MT0003', 'DG0003', 'A', '07/15/2017', '07/15/2018')
 insert into THEDOCGIA values ('MT0004', 'DG0004', 'A', '07/23/2017', '07/23/2018')
 insert into THEDOCGIA values ('MT0005', 'DG0005', 'B', '07/29/2017', '07/29/2018')
 insert into THEDOCGIA values ('MT0006', 'DG0006', 'B', '09/13/2017', '09/13/2018')
 insert into THEDOCGIA values ('MT0007', 'DG0007', 'B', '10/23/2017', '10/23/2018')
-insert into THEDOCGIA values ('MT0008', 'DG0008', 'A', '10/23/2017', '10/23/2018')
+insert into THEDOCGIA values ('MT0008', 'DG0008', 'B', '10/23/2017', '10/23/2018')
 insert into THEDOCGIA values ('MT0009', 'DG0009', 'A', '10/23/2017', '10/23/2018')
 insert into THEDOCGIA values ('MT0010', 'DG0010', 'A', '12/03/2017', '12/03/2018')
-insert into THEDOCGIA values ('MT0011', 'DG0011', 'B', '12/04/2017', '12/04/2018')
+insert into THEDOCGIA values ('MT0011', 'DG0011', 'A', '12/04/2017', '12/04/2018')
 insert into THEDOCGIA values ('MT0012', 'DG0012', 'B', '01/20/2018', '01/20/2019')
-insert into THEDOCGIA values ('MT0013', 'DG0013', 'A', '01/20/2018', '01/20/2019')
+insert into THEDOCGIA values ('MT0013', 'DG0013','B', '01/20/2018', '01/20/2019')
 insert into THEDOCGIA values ('MT0014', 'DG0014', 'A', '03/04/2018', '03/04/2019')
-insert into THEDOCGIA values ('MT0015', 'DG0015', 'A', '04/04/2018', '04/04/2018')
+insert into THEDOCGIA values ('MT0015', 'DG0015', 'B', '04/04/2018', '04/04/2018')
 
 
 
@@ -99,7 +98,8 @@ go
 
 create table THELOAISACH
 (
-	TenTheLoai nvarchar(40) primary key,
+	
+	TenTheLoai nvarchar(40) primary key
 )
 
 insert into THELOAISACH values (N'Giáo trình')
@@ -124,20 +124,20 @@ create table DAUSACH
 GO
 
 insert into DAUSACH values ('MDS001', N'Thiết kế cơ sở dữ liệu',N'Trịnh Minh Tuấn', N'Giáo trình', 2017, N'Nxb.Đại học quốc gia TPHCM', 57000, 0)
-insert into DAUSACH values ('MDS002', N'Xử lý ngôn ngữ tự nhiên',N'Nguyễn Tuấn Đăng', N'Giáo trình', 2012, N'Nxb.Đại học quốc gia TPHCM', 45000, 0)
-insert into DAUSACH values ('MDS003', N'Pháp chứng kỹ thuật số',N'Đàm Quang Hồng Hải', N'Giáo trình', 2016, N'Nxb.Đại học quốc gia TPHCM', 64000, 0)
+insert into DAUSACH values ('MDS002', N'Xử lý ngôn ngữ tự nhiên',N'Nguyễn Tuấn Đăng',N'Giáo trình', 2012, N'Nxb.Đại học quốc gia TPHCM', 45000, 0)
+insert into DAUSACH values ('MDS003', N'Pháp chứng kỹ thuật số',N'Đàm Quang Hồng Hải',N'Luận văn', 2016, N'Nxb.Đại học quốc gia TPHCM', 64000, 0)
 insert into DAUSACH values ('MDS004', N'Hệ thống nhúng',N'Vũ Lung, Trần Ngọc Đức', N'Giáo trình', 2016, N'Nxb.Đại học quốc gia TPHCM', 55000, 0)
-insert into DAUSACH values ('MDS005', N'Thiết kế vi mạch số',N'Nguyễn Minh Sơn, Nguyễn Trần Sơn', N'Giáo trình', 2016, N'Nxb.Đại học quốc gia TPHCM', 39000, 0)
-insert into DAUSACH values ('MDS006', N'Tại sao Mác đúng',N'Terry Eagleton', N'Tham khảo', 2014, N'Nxb.Chính trị - Hành chính', 57000, 0)
-insert into DAUSACH values ('MDS007', N'Hồ Chí Minh : Nhà tư tưởng lỗi lạc',N'Song Thanh', N'Tham khảo', 2013, N'Nxb.Đại học quốc gia TPHCM', 57000, 0)
-insert into DAUSACH values ('MDS008', N'Bàn về tinh thần pháp luật : De Lesprit deslois',N'Montesquieu', N'Tham khảo', 2013, N'Nxb.Đại học quốc gia TPHCM', 57000, 0)
-insert into DAUSACH values ('MDS009', N'Chúng ta kế thừa di sản nào? ',N'Văn Tạo', N'Tham khảo', 2013, N'Nxb.Đại học quốc gia TPHCM', 57000, 0)
-insert into DAUSACH values ('MDS010', N'Phương pháp và phong cách Hồ Chí Minh ',N'Đặng Xuân Kỵ', N'Tham khảo', 2013, N'Nxb.Đại học quốc gia TPHCM', 57000, 0)
-insert into DAUSACH values ('MDS011', N'Kỹ thuật kiểm thử đột biến',N'Hoàng Thị Thanh Thủy', N'Giáo trình', 2012, N'NXB Hà Nội', 12000, 0)
+insert into DAUSACH values ('MDS005', N'Thiết kế vi mạch số',N'Nguyễn Minh Sơn, Nguyễn Trần Sơn', N'Luận văn', 2016, N'Nxb.Đại học quốc gia TPHCM', 39000, 0)
+insert into DAUSACH values ('MDS006', N'Tại sao Mác đúng',N'Terry Eagleton', N'Giáo trình', 2014, N'Nxb.Chính trị - Hành chính', 57000, 0)
+insert into DAUSACH values ('MDS007', N'Hồ Chí Minh : Nhà tư tưởng lỗi lạc',N'Song Thanh', N'Luận văn', 2013, N'Nxb.Đại học quốc gia TPHCM', 57000, 0)
+insert into DAUSACH values ('MDS008', N'Bàn về tinh thần pháp luật : De Lesprit deslois',N'Montesquieu',N'Luận văn', 2013, N'Nxb.Đại học quốc gia TPHCM', 57000, 0)
+insert into DAUSACH values ('MDS009', N'Chúng ta kế thừa di sản nào? ',N'Văn Tạo',N'Giáo trình', 2013, N'Nxb.Đại học quốc gia TPHCM', 57000, 0)
+insert into DAUSACH values ('MDS010', N'Phương pháp và phong cách Hồ Chí Minh ',N'Đặng Xuân Kỵ',N'Giáo trình', 2013, N'Nxb.Đại học quốc gia TPHCM', 57000, 0)
+insert into DAUSACH values ('MDS011', N'Kỹ thuật kiểm thử đột biến',N'Hoàng Thị Thanh Thủy',N'Giáo trình', 2012, N'NXB Hà Nội', 12000, 0)
 insert into DAUSACH values ('MDS012', N'Ẩn dữ liệu ảnh 3D',N'Nguyễn Bảo Bình', N'Giáo trình', 2012, N'NXB Hà Nội', 34000, 0)
-insert into DAUSACH values ('MDS013', N'Tìm kiếm tự động văn bản song ngữ Anh - Việt từ internet',N'Ngô Quốc Hùng', N'Giáo trình', 2013, N'NXB Hà Nội', 40000, 0)
-insert into DAUSACH values ('MDS014', N'Nghiên cứu cải tiến thuật toán phân lớp sử dụng cây quyết định đệ quy',N'Nguyễn Minh Luân', N'Giáo trình',2012, N'NXB Hà Nội', 82000, 0)
-insert into DAUSACH values ('MDS015', N'Hệ thống quản lý tiền lương trên mạng Wan tại bưu điện tỉnh Sóc Trăng',N'Nguyễn Trí Nghĩa', N'Giáo trình', 2013,  N'NXB Hà Nội', 50000, 0)
+insert into DAUSACH values ('MDS013', N'Tìm kiếm tự động văn bản song ngữ Anh - Việt từ internet',N'Ngô Quốc Hùng', N'Tham khảo', 2013, N'NXB Hà Nội', 40000, 0)
+insert into DAUSACH values ('MDS014', N'Nghiên cứu cải tiến thuật toán phân lớp sử dụng cây quyết định đệ quy',N'Nguyễn Minh Luân', N'Tham khảo',2012, N'NXB Hà Nội', 82000, 0)
+insert into DAUSACH values ('MDS015', N'Hệ thống quản lý tiền lương trên mạng Wan tại bưu điện tỉnh Sóc Trăng',N'Nguyễn Trí Nghĩa', N'Tham khảo', 2013,  N'NXB Hà Nội', 50000, 0)
 
 
 
@@ -415,34 +415,7 @@ create table PHIEUTIENPHAT
 )
 
 go
-
-
-	-- tao view TKSachTraTre
-CREATE VIEW TKSachTraTre AS 
-SELECT        CHITIETTRA.SoNgayTraMuon, DAUSACH.TenDauSach, PHIEUMUON.NgayMuon
-FROM            PHIEUMUON INNER JOIN
-                         CHITIETMUON ON PHIEUMUON.MaPhieuMuon = CHITIETMUON.MaPhieuMuon INNER JOIN
-                         CHITIETTRA ON PHIEUMUON.MaPhieuMuon = CHITIETTRA.MaPhieuMuon INNER JOIN
-                         CUONSACH ON CHITIETMUON.MaSach = CUONSACH.MaSach AND CHITIETTRA.MaSach = CUONSACH.MaSach INNER JOIN
-                         dbo.DAUSACH ON dbo.CUONSACH.MaDauSach = dbo.DAUSACH.MaDauSach
-WHERE        (CHITIETTRA.SoNgayTraMuon <> 0)
-
-
-go
-
---create view TkTinhHinhMuonSach
-
-CREATE VIEW TKTinhHinhMuonSach AS
-SELECT       DAUSACH.TenTheLoai, PHIEUMUON.NgayMuon
-FROM            CHITIETMUON INNER JOIN
-                         CUONSACH ON CHITIETMUON.MaSach = CUONSACH.MaSach INNER JOIN
-                         DAUSACH ON CUONSACH.MaDauSach = DAUSACH.MaDauSach INNER JOIN
-                         PHIEUMUON ON CHITIETMUON.MaPhieuMuon = PHIEUMUON.MaPhieuMuon
-
-
- go 
-
---CREATE BY webmaster@hmweb.com.vn
+--Tao ham chuyen thanh tieng Viet khong dau
 CREATE FUNCTION [dbo].[fuChuyenCoDauThanhKhongDau]
 (
       @strInput NVARCHAR(4000)
@@ -497,6 +470,147 @@ BEGIN
     RETURN @strInput
 END
 
-SELECT  count(*)
-                                FROM   THEDOCGIA
-                                Where MaDocGia = 'DG0001'
+go 
+
+CREATE FUNCTION AUTO_IDBC()
+RETURNS VARCHAR(5)
+AS
+BEGIN
+	DECLARE @ID VARCHAR(5)
+	IF (SELECT COUNT(MaBC) FROM BCTinhHinhMuonSach) = 0
+		SET @ID = '0'
+	ELSE
+		SELECT @ID = MAX(RIGHT(MaBC, 3)) FROM BCTinhHinhMuonSach
+		SELECT @ID = CASE
+			WHEN @ID >= 0 and @ID < 9 THEN 'BC00' + CONVERT(CHAR, CONVERT(INT, @ID) + 1)
+			WHEN @ID >= 9 THEN 'BC0' + CONVERT(CHAR, CONVERT(INT, @ID) + 1)
+		END
+	RETURN @ID
+END
+
+go
+
+create table BCTinhHinhMuonSach
+(
+	MaBC char(5) PRIMARY KEY CONSTRAINT IDBC DEFAULT DBO.AUTO_IDBC(),
+	ThangBaocao int ,
+	NamBaoCao int
+
+
+)
+
+go 
+
+CREATE FUNCTION AUTO_IDCTBC()
+RETURNS VARCHAR(5)
+AS
+BEGIN
+	DECLARE @ID VARCHAR(5)
+	IF (SELECT COUNT(MaCTBC) FROM CTBCTinhHinhMuonSach) = 0
+		SET @ID = '0'
+	ELSE
+		SELECT @ID = MAX(RIGHT(MaCTBC, 3)) FROM CTBCTinhHinhMuonSach
+		SELECT @ID = CASE
+			WHEN @ID >= 0 and @ID < 9 THEN 'CT00' + CONVERT(CHAR, CONVERT(INT, @ID) + 1)
+			WHEN @ID >= 9 THEN 'CT0' + CONVERT(CHAR, CONVERT(INT, @ID) + 1)
+		END
+	RETURN @ID
+END
+
+go
+
+create table CTBCTinhHinhMuonSach
+(
+	MaCTBC char(5) primary key   CONSTRAINT IDCTBC DEFAULT DBO.AUTO_IDCTBC(),
+	MaBC char(5) foreign key references BCTinhHinhMuonSach(MaBC),
+	TenTheLoai nvarchar(40),
+	SoLuotMuon int,
+	TiLeMuon float
+)
+
+
+go
+CREATE FUNCTION AUTO_IDBC1()
+RETURNS VARCHAR(5)
+AS
+BEGIN
+	DECLARE @ID VARCHAR(5)
+	IF (SELECT COUNT(MaBC) FROM BCSachTraTre) = 0
+		SET @ID = '0'
+	ELSE
+		SELECT @ID = MAX(RIGHT(MaBC, 3)) FROM BCSachTraTre
+		SELECT @ID = CASE
+			WHEN @ID >= 0 and @ID < 9 THEN 'BC00' + CONVERT(CHAR, CONVERT(INT, @ID) + 1)
+			WHEN @ID >= 9 THEN 'BC0' + CONVERT(CHAR, CONVERT(INT, @ID) + 1)
+		END
+	RETURN @ID
+END
+
+go
+create table BCSachTraTre
+(
+	MaBC char(5) PRIMARY KEY CONSTRAINT IDBC1 DEFAULT DBO.AUTO_IDBC1(),
+	NgayBaoCao smalldatetime
+
+)
+
+go 
+CREATE FUNCTION AUTO_IDCTBC1()
+RETURNS VARCHAR(5)
+AS
+BEGIN
+	DECLARE @ID VARCHAR(5)
+	IF (SELECT COUNT(MaCTBC) FROM CTBCSachTraTre) = 0
+		SET @ID = '0'
+	ELSE
+		SELECT @ID = MAX(RIGHT(MaCTBC, 3)) FROM  CTBCSachTraTre
+		SELECT @ID = CASE
+			WHEN @ID >= 0 and @ID < 9 THEN 'CT00' + CONVERT(CHAR, CONVERT(INT, @ID) + 1)
+			WHEN @ID >= 9 THEN 'CT0' + CONVERT(CHAR, CONVERT(INT, @ID) + 1)
+		END
+	RETURN @ID
+END
+
+go
+create table CTBCSachTraTre
+(
+	MaCTBC char(5) primary key   CONSTRAINT IDCTBC1 DEFAULT DBO.AUTO_IDCTBC1(),
+	MaBC char(5) foreign key references BCSachTraTre(MaBC),
+	TenSach nvarchar(80),
+	NgayMuon smalldatetime ,
+	SoNgayTraTre int 
+	
+)
+
+
+
+
+
+
+
+
+/*
+create trigger INSERT_CHITIETTRA_SoNgayTraMuon
+on CHITIETTRA
+for INSERT
+as	
+begin
+	declare @MaSach char(6), @SoNgayTraMuon int,@MaPhieuTra char(6),@NgayTra smalldatetime, @MaPhieuMuon char(6),@NgayDuKiemTra smalldatetime -- khai bao bien
+	select @MaPhieuTra=MaPhieuTra,@MaSach =MaSach,@MaPhieuMuon=MaPhieuMuon from inserted-- lay gia tri ra can dung select--B1
+	select @NgayTra=NgayTra from PHIEUTRA WHERE MaPhieuTra=@MaPhieuTra
+	select @NgayDuKiemTra=NgayDuKienTra from PHIEUMUON WHERE MaPhieuMuon=@MaPhieuMuon
+	if(@NgayTra > @NgayDuKiemTra)
+			begin
+			UPDATE CHITIETTRA
+			SET SoNgayTraMuon= DATEDIFF (day, @NgayDuKiemTra, @NgayTra)
+			WHERE MaPhieuTra=@MaPhieuTra and MaSach =@MaSach
+			end
+			else
+			begin
+			UPDATE CHITIETTRA
+			SET SoNgayTraMuon= 0
+			WHERE MaPhieuTra=@MaPhieuTra and MaSach =@MaSach
+			end
+end
+	*/		
+
