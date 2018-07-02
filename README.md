@@ -51,7 +51,7 @@
 <ul><h4>Telerik cho winform</h4>
 <p>Giao diện người dùng Telerik cho các điều khiển WinForms có thể được sử dụng với Progress Developer Studio cho OpenEdge để cung cấp các giao diện người dùng .NET phong phú và hấp dẫn. Giao diện người dùng Telerik dành cho WinForms bao gồm hơn 120 điều khiển giao diện người dùng mà bạn có thể sử dụng để dễ dàng xây dựng các ứng dụng độc đáo và trực quan tuyệt đẹp.</p>
 </ul>
- <h4>- Nền tản xây dựng:</h4>
+ <h4>- Nền tảng xây dựng:</h4>
 <ul>
  <p>- Visual studio 2017</p>
  <p>- .NETFramework,Version=v4.5.2</p>
