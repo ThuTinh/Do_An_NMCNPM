@@ -34,7 +34,7 @@
 - Thêm, xóa, sửa dữ liệu từ trang quản trị.
 - Autocomplete của google map.
 
-# Nền tản xây dựng
+# Nền tảng xây dựng
 <h4>- Sơ lược về C#.Net, SQl server, Telerik cho winform:</h4>
 <ul><h4>C#.Net</h4>
 
