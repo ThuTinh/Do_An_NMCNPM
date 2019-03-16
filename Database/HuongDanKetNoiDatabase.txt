@@ -5,7 +5,7 @@
 
 -------------
 Cách run chi tiết:
-1. Tải file CreateDBQLTV.cmd , QLTV.sql, QLThuVien.sln
+1. Tải file CreateDBQLTV.cmd , QuanLyThuVien.sql, QLThuVien.sln
 	
 2.1. Mở file
 	CreateDBQLTV.cmd bằng Notepad++
