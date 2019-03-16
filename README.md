@@ -60,7 +60,7 @@
 
 
 # Môi trường cài đặt
-- Windows 10 64/32 bit
+- Windows 10 32-bit hoặc 64-bit
 - .NETFramework,Version=v4.5.2 trở lên
 
 
